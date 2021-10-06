@@ -1,0 +1,18 @@
+{
+    "name": "phonebook",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test:contract": "cd contract && yarn test",
+      "test:contract:unit": "cd contract && yarn test:unit",
+      "deploy:contract": "cd contract/scripts && ./1.init.sh",
+      "build:web": "cd frontend && yarn build",
+      "start:web": "cd frontend && yarn start"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@assemblyscript/loader": "^0.19.17"
+    }
+  }
